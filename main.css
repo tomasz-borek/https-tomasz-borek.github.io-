@@ -6,15 +6,6 @@
     text-decoration: none;
 }
 
-body{
-    height: 100vh;
-    background-color: #fff;
-    background-size: 75%;
-    background-position: top right;
-    background-image: url(./assets/img/main-page-photo.png);
-    background-repeat: no-repeat;
-}
-
 .navbar-text-button {
     color: #001A57;
     font-size: 20px;
@@ -47,14 +38,14 @@ body{
 
 .navbar-content {
     height: auto;
-    padding: 20px 70px;
+    padding: 8px 70px;
 }
 
 .navbar-li {
     list-style: none;
 }
 
-.navbar-image-button {
+.round-button {
     display: flex;
     padding: 8px 16px;
     justify-content: center;
@@ -72,12 +63,12 @@ body{
     text-transform: uppercase;
 }
 
-#login-button {
+.yellow-button {
     background-color: #E5F410;
     border: none;
 }
 
-#login-button a {
+#yellow-button a {
     color: #001A57;
     font-size: 14px;
 }
@@ -102,4 +93,82 @@ body{
 #register-button a {
     color: white;
     font-size: 14px;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-article-section {
+    height: 100vh;
+    background-color: #fff;
+    background-size: 70%;
+    background-position: top right;
+    background-image: url(./assets/img/main-page-photo.png);
+    background-repeat: no-repeat;
+}
+
+.gradient-overlay {
+    height: 100%;
+    width: 60%; 
+    margin-left: 40%;
+    background: linear-gradient(285deg, #001A57 17%, rgba(0, 26, 87, 0.00) 47.42%);
+}
+
+.main-article {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5vh;
+}
+
+.main-article-title {
+    width: 100%;
+    background-color: #001A57;
+    color: #FCFCFC;
+    font-family: Bebas Neue;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px;
+}
+
+.main-article-info {
+    color: #001A57;
+    font-family: Roboto Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-article-preview {
+    color: #001A57;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.main-article-button {
+    width: 30%;
+}
+
+.bolded-info {
+    font-weight: 700;
+}
+
+.other-articles {
+    height: 100vh;
 }
