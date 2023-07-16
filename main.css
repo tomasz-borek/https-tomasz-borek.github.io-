@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue";
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background-color: #fff;
+    background-size: 75%;
+    background-position: top right;
+    background-image: url(./assets/img/main-page-photo.png);
+    background-repeat: no-repeat;
+}
+
+.navbar-text-button {
+    color: #001A57;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo {
+    position: relative;
+    top: 10%;
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border-bottom: 1px solid #FCFCFC;
+    background: transparent;
+    box-shadow: 0px 4px 10px 0px rgba(49, 49, 49, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-content {
+    height: auto;
+    padding: 20px 70px;
+}
+
+.navbar-li {
+    list-style: none;
+}
+
+.navbar-image-button {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.navbar-image-button a {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#login-button {
+    background-color: #E5F410;
+    border: none;
+}
+
+#login-button a {
+    color: #001A57;
+    font-size: 14px;
+}
+
+.navbar-image-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.navbar-text-buttons {
+    display: flex;
+    align-items: flex-start;
+    gap: 5vh;
+}
+
+#register-button {
+    border: 1px solid #FCFCFC;
+    background-color: #001A57;
+}
+
+#register-button a {
+    color: white;
+    font-size: 14px;
+}
