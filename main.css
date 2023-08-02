@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #f3f3f3;
+}
+
 .navbar-text-button {
     color: #001A57;
     font-size: 20px;
@@ -199,7 +203,7 @@ header {
 
 .main-article-section {
     height: 100vh;
-    background-color: #fff;
+    background-color: #f3f3f3;
     background-size: 70%;
     background-position: top right;
     background-image: url(./assets/img/main-page-photo.png);
@@ -370,6 +374,7 @@ header {
     gap: 17px;
     height: 50%;
     margin: auto;
+    background-color: #FCFCFC
 }
 
 .regular-article-header {
@@ -438,6 +443,7 @@ header {
     gap: 24px;
     margin-top: 5%;
 }
+
 
 .subsection-header {
     color: #001A57;
@@ -589,13 +595,22 @@ header {
 }
 
 .tables-section {
+    background-image: url(./assets/img/stadium-background-tables.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tables-overlay {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(255, 255, 255, 0.00) 100%, #F3F3F3 100%);
+}
+
+.tables-section-data {
     width: 80%;
     margin: 0px auto 0px;
     display: flex;
     flex-direction: column;
     padding: 36px 0px 18px 0px;
     align-items: center;
-    background: linear-gradient(180deg, #F3F3F3 0%, rgba(255, 255, 255, 0.00) 100%, #F3F3F3 100%);
 }
 
 .tables-wrapper {
